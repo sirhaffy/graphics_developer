@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outDir": "commonjs",
+		"target": "esNext",
+		"baseUrl": "./",
+		"lib": ["esNext", "dom"],
+		"esModuleInterop": true,
+		"types": ["babylonjs"],
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"strict": false,
+
+		"noImplicitAny": false,
+		"types": ["babylonjs", "babylonjs-gui"]
+	},
+	"include": ["index.ts", "components/animation.ts"],
+	"exclude": ["node_modules"]
+}
